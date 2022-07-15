@@ -1,0 +1,10 @@
+version: '1'
+services:
+  dev:
+    build: .
+    stdin_open: true
+    tty: true
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/opt/dev

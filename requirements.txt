@@ -1,0 +1,6 @@
+numpy
+pandas
+streamlit
+altair
+mysql-connector
+vega_datasets
